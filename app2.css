@@ -9,6 +9,9 @@ body {
     text-align: center;
     background-color: #e3f8ff;
     font-family:Arial, Helvetica, sans-serif;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .container {
@@ -23,6 +26,7 @@ h1 {
     color: #4284f5;
 }
 
+/* Buttons */
 .btn {
     margin: auto;
     margin-top: 20px;
@@ -77,5 +81,61 @@ input:hover {
 }
 
 button {
+    font-size: 1rem;
+}
+
+/* Drop Down */
+.dropbtn {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #4284f5;
+    background-color: white;
+    border-radius: 10px;
+    color: #4284f5;
+}
+
+.dropbtn:hover {
+    cursor: pointer;
+    transform: translateY(-0.1rem);
+    transition: transform 300ms;
+    box-shadow: -0.4rem 0.4rem 1rem #4284f5;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #4284f5;
+    background-color: white;
+    border-radius: 10px;
+    color: #4284f5;
+    max-height: 100px;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.dropdown-content a {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.show {
+    display: block;
+}
+
+#selectCategory, #selectDifficulty {
+    text-align: center;
     font-size: 1rem;
 }

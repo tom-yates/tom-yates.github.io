@@ -14,7 +14,7 @@ let availableQuestions = [];
 let questions = [];
 
 setTimeout( () => { 
-    fetch ("https://opentdb.com/api.php?amount=10&type=multiple")
+    fetch (localStorage.getItem("Fetch Api Link"))
         .then(res => {
             console.log(res);
             return res.json();
