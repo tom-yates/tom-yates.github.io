@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Quick Quiz - Play!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app2.css">
+    <link rel="stylesheet" href="game2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap">
+    <link rel="icon" type="image/png" href="favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <img src="/QuickQuiz/loader.png" id="loader">
+            <div id="game" class="hidden">
+                <div id="hud">
+                    <div id="hud-item1">
+                        <p id="progressText" class ="hud-prefix">Question</p>
+                    </div>
+                    <div id="hud-item2">
+                        <p id="score" class="hud-prefix">Total Score: 0</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 id="question"></h2>
+
+                    <div class="choice">
+                        <p class="choice-prefix">A</p>
+                        <p class="choice-text" data-number="1"></p>
+                    </div>
+                    
+                    <div class="choice">
+                        <p class="choice-prefix">B</p>
+                        <p class="choice-text" data-number="2"></p>
+                    </div>
+
+                    <div class="choice">
+                        <p class="choice-prefix">C</p>
+                        <p class="choice-text" data-number="3"></p>
+                    </div>
+
+                    <div class="choice">
+                        <p class="choice-prefix">D</p>
+                        <p class="choice-text" data-number="4"></p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <script src="/QuickQuiz/game.js"></script>
+</body>
+</html>

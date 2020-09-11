@@ -1,0 +1,30 @@
+body {
+    background-color: #75706f;
+    background-image: linear-gradient(#403d3d,#75706f, #403d3d);
+    color: antiquewhite;
+    position: relative;
+}
+
+a, a:visited {
+    color: antiquewhite;
+}
+
+a:hover {
+    color: #75706f;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #75706f;
+}
+
+.carousel-caption {
+    display: none;
+}
+
+.section {
+    padding-top: 75px;
+    padding-bottom: 25px;
+    border-top: 1px;
+    border-bottom-style: dotted;
+}
