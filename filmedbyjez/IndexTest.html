@@ -13,6 +13,7 @@
 
     <body data-spy="scroll" data-target="#myNavbar" data-offset="20">
         <div class="container">
+            <button onclick="topFunction()" id="myBtn" class="btn btn-secondary" title="Go to top">Back To Top</button>
             <!-- Nav pills -->
             <ul class="nav nav-pills red justify-content-center fixed-top"
                 id="myNavbar" 
@@ -33,11 +34,19 @@
             
             <!--About Section-->
             <div id="about" class="section">
-                <img src="Jez.jpg" class="rounded mx-auto d-block">
-                <br>
-                <p> 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at libero vitae arcu commodo venenatis. Phasellus lorem erat, egestas quis ante vel, mollis vulputate odio. Integer quam ex, condimentum in risus at, bibendum sollicitudin neque. Donec ipsum sem, vestibulum non enim faucibus, aliquam facilisis ex. Nam vitae viverra lacus, sed ultrices libero. Donec vel justo porta, eleifend sapien non, varius lacus. Aliquam diam nisi, aliquam vitae purus sed, ultrices consequat nunc. Fusce elementum ut ligula non scelerisque. Aliquam vulputate convallis turpis, quis efficitur libero cursus nec. Fusce in venenatis augue. Nullam eu ornare ex. Suspendisse sed nibh erat. Vivamus volutpat augue elit, in fringilla libero porttitor nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec pretium ligula mauris, ut ultrices dolor ornare et. Aliquam lacinia orci eget ex posuere, efficitur cursus dolor fringilla.
-                </p><br>
+                <div class="innerAbout">
+                    <img src="Jez.jpg" class="rounded mx-auto d-block">
+                    <br>
+                    <p> Hi, I'm Jerome Rawlings.</p>
+
+                    <p> I shoot, edit and create all the content myself using my [Camera Model here].</p>
+                        
+                    <p>I started out with a love of Photography all the while becoming more and more time invested and passionate. I now focus on Videography more due to the greater feel of accomplishment after creating a fantastic video.</p>
+                        
+                    <p>Check out some of my sample work below to see some of the projects I have completed to fuel my hobby as well as some projects completed on behalf of customers. Check out my instagram feed to see some of the larger projects.</p>
+                        
+                    <p>If you have an idea or need some work completing you can fill out the enquiries form located at the bottom of the page.</p><br>
+                </div>
             </div>
             
             <!--Portfolio Section-->
@@ -58,22 +67,22 @@
                                 <div class="carousel-item active">
                                     <img class="d-block mx-auto" src="pic1.jpg" width="400" height="490">
                                     <div class="carousel-caption pics">
-                                        <h3>Pic1</h3>
-                                        <p>This should be the label for pic 1</p>
+                                        <h3>Peak District</h3>
+                                        <p>Being from Derby I'm lucky to have the Peak District within hours which can really allow me to go out and see some glorious colours whether it's morning, noon or night. </p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block mx-auto" src="pic2.jpg" width="400" height="490">
                                     <div class="carousel-caption pics">
-                                        <h3>Pic2</h3>
-                                        <p>This should be the label for pic 2</p>
+                                        <h3>Mustangs!</h3>
+                                        <p>I was lucky enough to get the chance to go on a drive in a convoy of 5 Mustang owners to get some awesome shots of the even better cars they were driving! This was my favourite photo from the shoot but there's plenty more on my instagram!</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block mx-auto" src="pic3.jpg" width="400" height="490">
                                     <div class="carousel-caption pics">
-                                        <h3>Pic3</h3>
-                                        <p>This should be the label for pic 3</p>
+                                        <h3>Mossy</h3>
+                                        <p>A friend of mine needed a few Promo shots doing for the DJ work he does. This gave me a good chance to test out my newly purchased lens at the time and try my hand at some portrait shots!</p>
                                     </div>
                                 </div>
                             </div>
@@ -107,8 +116,8 @@
                                         <source src="sin.mp4" type="video/mp4">
                                     </video>
                                     <div class="carousel-caption vids">
-                                        <h3>Vid1</h3>
-                                        <p>This should be the label for vid1</p>
+                                        <h3>Sin Barbers</h3>
+                                        <p>This was my first time completing film work and it truly got the ball rolling and peaked my interest enough to want to put my focus towards the creation of films. The client was happy with the way it turned out and was the perfect opening for his new barbershop.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
@@ -116,8 +125,8 @@
                                         <source src="trainers.mp4" type="video/mp4">
                                     </video>
                                     <div class="carousel-caption vids">
-                                        <h3>Vid2</h3>
-                                        <p>This should be the label for vid2</p>
+                                        <h3>Unofficial StockX Advert</h3>
+                                        <p>Being unable to go out and shoot anything due to the Coronavirus lockdown I decided to try my hand at some technical work and although only a few seconds long the individual masking of all the different parts of the trainers worked out really well!</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
@@ -125,21 +134,20 @@
                                         <source src="calc.mp4" type="video/mp4">
                                     </video>
                                     <div class="carousel-caption vids">
-                                        <h3>Vid3</h3>
-                                        <p>This should be the label for vid3</p>
+                                        <h3>#JMSpinshotChallenge</h3>
+                                        <p>Another Lockdown style project! I managed to get ahold of some new lighting equipment so tried my hand at using contrasting colours to create this. After seeing the challenge on Instagram I thought it would be rude not to try my hand at making the plain old calculator look cool!</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                                                    
+                </div>                                   
             </div>
 
             <!--Socials Section-->
             <div id="socials" class="section">
                 <h1>Socials</h1>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at libero vitae arcu commodo venenatis. Phasellus lorem erat, egestas quis ante vel, mollis vulputate odio. Integer quam ex, condimentum in risus at, bibendum sollicitudin neque. Donec ipsum sem, vestibulum non enim faucibus, aliquam facilisis ex. Nam vitae viverra lacus, sed ultrices libero. Donec vel justo porta, eleifend sapien non, varius lacus. Aliquam diam nisi, aliquam vitae purus sed, ultrices consequat nunc. Fusce elementum ut ligula non scelerisque. Aliquam vulputate convallis turpis, quis efficitur libero cursus nec. Fusce in venenatis augue. Nullam eu ornare ex. Suspendisse sed nibh erat. Vivamus volutpat augue elit, in fringilla libero porttitor nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec pretium ligula mauris, ut ultrices dolor ornare et. Aliquam lacinia orci eget ex posuere, efficitur cursus dolor fringilla.
+                    <p> Check out my Instagram feed below for more example work! If you're feeling generous, give me a follow, I always appreciate feedback and interractions on anything I post!
                     </p><br>
                     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                     <div class="elfsight-app-641e3c6c-1a5e-4aff-9bc6-9544ce41072a"></div>                           
@@ -148,7 +156,7 @@
             <!--Enquiries Section-->
             <div id="enquiries" class="section">
                 <h1>Enquiries</h1>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at libero vitae arcu commodo venenatis. Phasellus lorem erat, egestas quis ante vel, mollis vulputate odio. Integer quam ex, condimentum in risus at, bibendum sollicitudin neque. Donec ipsum sem, vestibulum non enim faucibus, aliquam facilisis ex. Nam vitae viverra lacus, sed ultrices libero. Donec vel justo porta, eleifend sapien non, varius lacus. Aliquam diam nisi, aliquam vitae purus sed, ultrices consequat nunc. Fusce elementum ut ligula non scelerisque. Aliquam vulputate convallis turpis, quis efficitur libero cursus nec. Fusce in venenatis augue. Nullam eu ornare ex. Suspendisse sed nibh erat. Vivamus volutpat augue elit, in fringilla libero porttitor nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec pretium ligula mauris, ut ultrices dolor ornare et. Aliquam lacinia orci eget ex posuere, efficitur cursus dolor fringilla.
+                <p> If you feel like I can complete the work needed for you then fill out the form below starting with your name and location. You can then select what type of work you need and also a brief description of the idea of your work that needs completing as well as some contact information would be much appreciated.
                 </p><br>
                 <div class="row">
                     <div class="col-md-3"></div>
@@ -156,6 +164,10 @@
                         <div class="form-group text-left">
                             <label for="name">Name:</label>
                             <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group text-left">
+                            <label for="location">Location:</label>
+                            <input type="text" class="form-control" id="location">
                         </div>
                         <div class="form-group text-left">
                             <label for="job">Job Type:</label>

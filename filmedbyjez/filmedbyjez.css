@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #75706f;
     background-image: linear-gradient(#403d3d,#75706f, #403d3d);
@@ -33,7 +37,27 @@ h1 {
     border-top: 1px;
     border-bottom-style: dotted;
 }
-
-.eapps-link {
-    display:hidden;
+ 
+.innerAbout {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
+@media only screen and (max-width: 800px) {
+    .innerAbout {
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 0px;
+  }
