@@ -1,6 +1,5 @@
 //Get the Button
 scrollToTopButton = document.getElementById("backToTopBtn");
-
 //When User scrolls enough, show the button
 window.onscroll = function() {scrollFunction()};
 
@@ -11,7 +10,6 @@ function scrollFunction() {
         scrollToTopButton.style.display = "none";
     }
 }
-
 //When user presses button, go back to top
 function scrollToTop() {
     document.body.scrollTop = 0; //for safari
